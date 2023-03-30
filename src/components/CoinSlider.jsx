@@ -55,10 +55,6 @@ const CoinSlider = () => {
 
   const prevRef = useRef(null)
   const nextRef = useRef(null)
-  const slideNum = useRef(null)
-
-  const sliderNumber = ['1', '2', '3']
-
 
   return (
     <section className='px-4 lg:px-0 pt-8 pb-14 text-center dark:bg-[#2F1B58] dark:text-gray-200'>
