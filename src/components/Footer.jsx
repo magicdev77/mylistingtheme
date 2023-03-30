@@ -10,10 +10,10 @@ const Footer = () => {
 
         <div className='flex-auto space-y-4 max-w-fit '>
           <h2 className='text-2xl lg:text-3xl font-bold tracking-wider text-[#545454] dark:text-white'>
-            <span className='text-[#B322F1]'>S</span> L E D G E R
+            <span className='text-[#B322F1]'>S</span> - T E M P L A T E S
           </h2>
           <p className='w-full lg:w-96 font-light dark:text-slate-400'>
-            StellerLedger is operated by an independent commercial entity unaffiliated with the Steller development foundation.
+            S-Templates is operated by an independent commercial entity unaffiliated with the S-Templates development foundation.
           </p>
 
           <div className='pt-4 lg:pt-12 space-x-4 flex pb-12'>
@@ -50,15 +50,15 @@ const Footer = () => {
           <div className='space-y-4'>
             <p>
               <i className='text-[#B322F1] pr-4 fas fa-phone'></i>
-              +01 234 567 88 &nbsp; | &nbsp;+01 234 567 88
+              +01 XXX XXX XX &nbsp; | &nbsp;+01 XXX XXX XX
             </p>
             <p>
               <i className='text-[#B322F1] pr-4 fas fa-paper-plane'></i>
-              Steller@ledger.com
+              martsangel017@gmail.com
             </p>
             <p>
               <i className='text-[#B322F1] pr-4 fas fa-location-dot'></i>
-              New York, NY 10012 US
+              New York, US
             </p>
           </div>
         </div>

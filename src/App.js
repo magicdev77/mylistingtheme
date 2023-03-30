@@ -20,9 +20,9 @@ const App = () => {
       <Header themeToggling={themeToggling} setThemeToggling={setThemeToggling} />
       <HeroSection themeToggling={themeToggling}/>
       <IntroAbout />
-      <CoinSlider />
-      <ImgInfoVideo />
       <CompanySlider themeToggling={themeToggling}/>
+      <ImgInfoVideo />
+      <CoinSlider />
       <Footer />
     </main>
 

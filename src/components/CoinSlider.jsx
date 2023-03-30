@@ -16,7 +16,7 @@ const CoinBox = ({ coin: { coinImg, coinName, amount, highTime, highTimeAmount, 
     <div className='flex justify-between'>
       <div className='flex gap-4'>
         <img src={coinImg} alt="" className='w-12' />
-        <div className='text-left'>
+        <div className='flex justify-between w-full'>
           <p>{currency1} | {currency2}</p>
           <p>{coinName}</p>
         </div>
@@ -31,7 +31,7 @@ const CoinBox = ({ coin: { coinImg, coinName, amount, highTime, highTimeAmount, 
     {/* Row ==> 2 */}
     <div className='flex items-center justify-between pt-2'>
       <h2 className='text-3xl font-bold tracking-wider'>${amount}</h2>
-      <img src={trendImg} alt="" className='w-24' />
+      {/* <img src={trendImg} alt="" className='w-24' /> */}
     </div>
 
     {/* Row ==> 3 */}
@@ -99,7 +99,7 @@ const CoinSlider = () => {
       >
         {
           coinInfo.map(coin => (
-            <SwiperSlide key={coin.id}>
+            <SwiperSlide key={coin.id} style={{minWidth:"350px"}}>
               <CoinBox coin={coin} />
             </SwiperSlide>
           ))
@@ -108,7 +108,7 @@ const CoinSlider = () => {
       </Swiper>
 
 
-      {/* Navigation UI */}
+      {/* Navigation UI
       <div className='flex items-center justify-center gap-4'>
         <i ref={prevRef} className="fa-solid fa-angle-left navigationPointerNumber"></i>
         {
@@ -119,7 +119,7 @@ const CoinSlider = () => {
           )
         }
         <i ref={nextRef} className="fa-solid fa-angle-right navigationPointerNumber"></i>
-      </div>
+      </div> */}
 
     </section >
   )

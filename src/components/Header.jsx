@@ -17,8 +17,8 @@ const Header = ({ themeToggling, setThemeToggling }) => {
         <img src={images.Logo} alt="" className='w-12 ' />
 
         <div>
-          <h1 className='text-xl md:text-2xl font-bold'>SLIDEGER</h1>
-          <p className='text-xs md:text-sm '>Decentralized Payment Network</p>
+          <h1 className='text-xl md:text-2xl font-bold'>S-TEMPLATES</h1>
+          <p className='text-xs md:text-sm '>Enjoy your live Service</p>
         </div>
       </div>
 
@@ -57,7 +57,7 @@ const Header = ({ themeToggling, setThemeToggling }) => {
         </div>
 
         <div className='hidden lg:block border-[5px] border-gray-200 dark:border-[#4B3982] rounded-full'>
-          <img src={images.USA_Logo} alt="" className='w-8 ' />
+          <img src={images.avatar_owner} alt="" className='w-8 rounded-2xl' />
         </div>
       </div>
 

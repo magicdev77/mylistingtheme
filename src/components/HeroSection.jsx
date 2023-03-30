@@ -65,9 +65,9 @@ const HeroSection = ({ themeToggling }) => {
       </div>
 
 
-      <h1 className='relative font-bold text-[28px] pt-4 md:text-4xl lg:text-5xl lg:leading-[60px]'>The Most Secure Platform <br /> On Steller</h1>
+      <h1 className='relative font-bold text-[28px] pt-4 md:text-4xl lg:text-5xl lg:leading-[60px]'>The Most Secure Platform <br /> On S-Templates</h1>
 
-      <p className='relative pt-8 w-full lg:w-[650px] mx-auto '>StellarLedger is the only Steller wallet where you can buy or create NFTs and be protected from scam or duplicate tokens</p>
+      <p className='relative pt-8 w-full lg:w-[650px] mx-auto '>S-Templates is the only template marketplace where you can buy or create templates and be protected from scam or duplicate tokens</p>
 
 
 

@@ -6,7 +6,7 @@ const IntroAbout = () => {
   return (
     <section className='p-6 pb-14 lg:px-16 text-center dark:bg-[#200A4C] dark:text-gray-200'>
       <p className='text-sm py-4'>Awesome Services</p>
-      <h2 className='text-3xl'>Why Steller Ledger ?</h2>
+      <h2 className='text-3xl'>Why S-Templates ?</h2>
 
       <div>
 

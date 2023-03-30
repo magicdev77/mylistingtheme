@@ -13,9 +13,9 @@ const ImgInfoVideo = () => {
         <div className='flex flex-wrap flex-col md:flex-row items-center justify-center xl:justify-between py-8 lg:border-b border-gray-500'>
 
           <div className='w-full xl:w-[500px] space-y-4 '>
-            <p className='text-sm 3xl:text-base'>Decentralized Payment Network</p>
-            <h2 className='text-3xl 3xl:text-5xl'>StellerLedgar is the <br /> Safest Network</h2>
-            <p className='text-xs 3xl:text-sm w-full lg:w-[480px] 3xl:w-[550px] leading-5 dark:text-slate-400 pb-4'>StellarLedger is a ledger where all assets are held in a very secure wallet, which allows the user to control their funds at all time. Steller is an open-source protocol for exchanging money, its network validates transactions and allows irreversible and cryptographically secure payments.</p>
+            <p className='text-sm 3xl:text-base'>Templates Service Platform</p>
+            <h2 className='text-3xl 3xl:text-5xl'>S-Templates is the <br /> Best Platform</h2>
+            <p className='text-xs 3xl:text-sm w-full lg:w-[480px] 3xl:w-[550px] leading-5 dark:text-slate-400 pb-4'>S-Templates is a platform where all assets are held in a very secure server, which allows the user to control their templates at all time. S-Templates is an open-source platform for exchanging template, its network validates transactions and allows irreversible and cryptographically secure payments.</p>
             <button className='hidden lg:block px-4 py-3 bg-[#9047c4] text-white rounded-lg text-sm'>Learn More</button>
           </div>
 
@@ -54,7 +54,7 @@ const ImgInfoVideo = () => {
           </div>
 
           <div className='pl-6 lg:pl-10 pr-20 lg:pr-28 py-6 lg:py-8 bg-black/70 border-l-2 border-[#B868F1] absolute top-10 left-10 text-gray-300 space-y-2'>
-            <p className='text-base lg:text-lg'>StellarLedger Intro</p>
+            <p className='text-base lg:text-lg'>S-Templates Intro</p>
             <p className='text-sm'>Explanation Video</p>
           </div>
 

@@ -47,6 +47,14 @@ import d_ClickPesa_W from '../assets/d_ClickPesa_W.png';
 import TrendDown from '../assets/TrendDown.png';
 import TrendUp from '../assets/TrendUp.png';
 import menuBar from '../assets/menuBar.png';
+import a_preview from '../assets/templates/Preview.avif';
+import b_preview from '../assets/templates/Preview0.avif';
+import c_preview from '../assets/templates/Preview1.avif';
+import d_preview from '../assets/templates/Preview2.avif';
+import e_preview from '../assets/templates/Preview3.avif';
+import f_preview from '../assets/templates/Preview4.jpg';
+import g_preview from '../assets/templates/Preview5.jpg';
+import avatar_owner from '../assets/owner.png';
 
 
 
@@ -100,6 +108,14 @@ const images = {
     TrendDown,
     TrendUp,
     menuBar,
+    a_preview,
+    b_preview,
+    c_preview,
+    d_preview,
+    e_preview,
+    f_preview,
+    g_preview,
+    avatar_owner,
 }
 
 export default images;

@@ -4,8 +4,8 @@ export const infoData = [
     {
         id: 1,
         img: images.ImageArt,
-        title: 'Steller Assets & NFTs',
-        info: "Trade your Steller assets anytime & anywhere Choose how you want to sell your NFTS and we'll help you on that & get 24/7 support from us"
+        title: 'S-Template Assets & NFTs',
+        info: "Trade your template assets anytime & anywhere Choose how you want to sell your NFTS and we'll help you on that & get 24/7 support from us"
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ export const infoData = [
         id: 3,
         img: images.ShieldOk,
         title: 'Data Security',
-        info: "Security of user information and funds is our first  first priority. StellerLedger is the only decentralized exchange without scam or duplicate tokens"
+        info: "Security of user information and funds is our first  first priority. Templates is the only template marketplace without scam or duplicate tokens"
     },
 ]
 
@@ -26,19 +26,19 @@ export const appRelatedInfo = [
         id: 1,
         img: images.Team,
         title: '200,000 + Users',
-        info: "StellerLedger is a popular choice both for beginners and pros. Easily send, receive and trade your crypto & maintain a true network of crypto domain"
+        info: "S-Templates is a popular choice both for beginners and pros. Easily send, receive and trade your templates & maintain a true network of crypto domain"
     },
     {
         id: 2,
         img: images.Apps,
         title: '100,000 + App Installs',
-        info: "Enjoy using our top rated android and IOS apps, you will have access to your funds anytime and anywhere, enjoy the unlimited access"
+        info: "Enjoy using our top rated android and IOS apps, you will have access to your templates anytime and anywhere, enjoy the unlimited access"
     },
     {
         id: 3,
         img: images.Rating,
         title: '500,000 + Reviews',
-        info: "Users love using SLedger, ongoing support, frequent updates and powerful features, make it one of the most trusted"
+        info: "Users love using S-Templates, ongoing support, frequent updates and powerful features, make it one of the most trusted"
     },
 ]
 
@@ -150,5 +150,57 @@ export const companyLogo = [
         id: 8,
         darkImg: images.d_ClickPesa,
         lightImg: images.d_ClickPesa_W,
+    },
+]
+
+export const templateImages = [
+    {
+        id: 1,
+        darkImg: images.a_preview,
+        oldPrice: '$69',
+        currentPrice: '$69',
+        date: '23 Mar 23',
+    },
+    {
+        id: 2,
+        darkImg: images.b_preview,
+        oldPrice: '$69',
+        currentPrice: '$48',
+        date: '08 Feb 23',
+    },
+    {
+        id: 3,
+        darkImg: images.c_preview,
+        oldPrice: '$70',
+        currentPrice: '$52',
+        date: '20 Mar 23',
+    },
+    {
+        id: 4,
+        darkImg: images.d_preview,
+        oldPrice: '$65',
+        currentPrice: '$43',
+        date: '25 Jan 23',
+    },
+    {
+        id: 5,
+        darkImg: images.e_preview,
+        oldPrice: '$77',
+        currentPrice: '$59',
+        date: '09 Mar 23',
+    },
+    {
+        id: 6,
+        darkImg: images.f_preview,
+        oldPrice: '$72',
+        currentPrice: '$44',
+        date: '10 Jan 22',
+    },
+    {
+        id: 7,
+        darkImg: images.g_preview,
+        oldPrice: '$63',
+        currentPrice: '$49',
+        date: '24 Feb 23',
     },
 ]
